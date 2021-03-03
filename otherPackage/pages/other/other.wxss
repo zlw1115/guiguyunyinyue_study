@@ -1,0 +1,10 @@
+/* pages/other/other.wxss */
+/*引入模板样式*/
+@import "/template/myTemplate/myTemplate.wxss";
+
+/*.title{  同名会覆盖引入的*/
+.otherTitle{
+    font-size: 50rpx;
+    font-weight: bold;
+    color: red;
+}

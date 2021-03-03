@@ -1,0 +1,12 @@
+<import src="/template/myTemplate/myTemplate.wxml"/>
+<view class="otherContainer">
+    <!--    测试模板-->
+    <view class="otherTitle">测试模板</view>
+    <!--    es6的新特性，...运算符，自动拆包-->
+    <template is="myTmp" data="{{...person}}"/>
+
+    <!--   获取用户的唯一标识，openId -->
+    <view class="otherTitle">测试获取用户唯一标识</view>
+    <button bindtap="handleGetOpendId">获取openId</button>
+
+</view>
